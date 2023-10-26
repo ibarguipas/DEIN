@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Controles_de_Ivan"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Diseño de controles" Height="450" Width="800" 
+        WindowStartupLocation="CenterScreen">
+
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBox SpellCheck.IsEnabled="True" Grid.Column="0"></TextBox>
+        <ComboBox Grid.Column="1">
+            <ComboBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="img\Aragorn"></Image>
+                    <Label>Aragorn</Label>
+                </StackPanel>
+            </ComboBoxItem>
+                
+        </ComboBox>
     </Grid>
 </Window>
