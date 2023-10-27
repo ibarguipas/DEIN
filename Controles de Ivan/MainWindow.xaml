@@ -18,15 +18,99 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBox SpellCheck.IsEnabled="True" Grid.Column="0"></TextBox>
+        <TextBox SpellCheck.IsEnabled="True" Grid.Column="0" TextChanged="TextBox_TextChanged"></TextBox>
         <ComboBox Grid.Column="1">
             <ComboBoxItem>
                 <StackPanel Orientation="Horizontal">
-                    <Image Source="img\Aragorn"></Image>
+                    <Image Source="/img/Aragorn.jpg" Width="30" Height="30"/>
                     <Label>Aragorn</Label>
                 </StackPanel>
             </ComboBoxItem>
-                
+            <ComboBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/img/Frodo.jpg" Width="30" Height="30"/>
+                    <Label>Frodo</Label>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/img/Gandalf.jpg" Width="30" Height="30"/>
+                    <Label>Gandalf</Label>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/img/Gimli.jpg" Width="30" Height="30"/>
+                    <Label>Gimli</Label>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/img/Legolas.jpg" Width="30" Height="30"/>
+                    <Label>Legolas</Label>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/img/Sam.jpg" Width="30" Height="30"/>
+                    <Label>Sam</Label>
+                </StackPanel>
+            </ComboBoxItem>
         </ComboBox>
+        <ListBox Grid.Row="1" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Label>Desarollo de interfaces</Label>
+                    <ProgressBar  Width="150"  Minimum="0" Maximum="100" Value="75"/>
+                </StackPanel>
+                
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Label>Gestion empresarial</Label>
+                    <ProgressBar  Width="150"  Minimum="0" Maximum="100" Value="25"/>
+                </StackPanel>
+                
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Label>Acceso a datos</Label>
+                    <ProgressBar Width="150"  Minimum="0" Maximum="100" Value="0"/>
+                </StackPanel>
+                
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Label>Desarollo web</Label>
+                    <ProgressBar  Width="150"  Minimum="0" Maximum="100" Value="43"/>
+                </StackPanel>
+                
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Label>Empresa</Label>
+                    
+                    <ProgressBar  Width="150"  Minimum="0" Maximum="100" Value="24"/>
+                    
+                </StackPanel>
+                
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal" Background="Red">
+                    <Label>Ingles</Label>
+                    <ProgressBar  Width="150"  Minimum="0" Maximum="100" Value="30"/>
+                    
+                </StackPanel>
+                
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel Orientation="Horizontal">
+                    <Label>Programacion multimedia y movil</Label>
+                    <ProgressBar Name="progressBarModule" Width="150"  Minimum="0" Maximum="100" Value="80"/>
+                </StackPanel>
+                
+            </ListBoxItem>
+        </ListBox>
+        
     </Grid>
 </Window>

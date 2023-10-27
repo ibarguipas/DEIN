@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace Controles_de_Ivan
 {
     /// <summary>
@@ -20,9 +21,16 @@ namespace Controles_de_Ivan
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Dictionary<string, double> moduleProgress = new Dictionary<string, double>();
+
         public MainWindow()
         {
-            InitializeComponent();
+         
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\bin\Release\Controles de Ivan.exe.config
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\bin\Release\Controles de Ivan.exe
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\bin\Release\Controles de Ivan.pdb
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\obj\Release\Controles de Ivan.csproj.AssemblyReference.cache
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\obj\Release\MainWindow.g.cs
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\obj\Release\App.g.cs
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\obj\Release\Controles de Ivan_MarkupCompile.cache
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\obj\Release\Controles de Ivan_MarkupCompile.lref
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\obj\Release\MainWindow.baml
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\obj\Release\Controles de Ivan.g.resources
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\obj\Release\Controles_de_Ivan.Properties.Resources.resources
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\obj\Release\Controles de Ivan.csproj.GenerateResource.cache
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\obj\Release\Controles de Ivan.csproj.CoreCompileInputs.cache
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\obj\Release\Controles de Ivan.exe
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Controles de Ivan\obj\Release\Controles de Ivan.pdb
