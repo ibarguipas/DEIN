@@ -11,40 +11,95 @@
         WindowStartupLocation="CenterScreen"
         Background="Transparent"
         AllowsTransparency="True">
-    <Grid HorizontalAlignment="Center">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="30"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="30"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="200"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-        </Grid.RowDefinitions>
-        
+    
         <Border CornerRadius="12">
             <Border.Background>
                 <ImageBrush ImageSource="/images/back-image.jpg" Stretch="None"/>
             </Border.Background>
-        </Border>
-        <Border CornerRadius="10" BorderThickness="5" Opacity="0.95">
-            <Border.BorderBrush>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#462ad8" Offset="0"/>
-                    <GradientStop Color="#da34ae" Offset="0.75"/>
-                    <GradientStop Color="#8a16c1" Offset="1"/>
-                </LinearGradientBrush>
-            </Border.BorderBrush>
-            <Border.Background>
-                <LinearGradientBrush StartPoint="0,2" EndPoint="1,0">
-                    <GradientStop Color="#060531" Offset="0"/>
-                    <GradientStop Color="#1b1448" Offset="1"/>
-                </LinearGradientBrush>
-            </Border.Background>
-        </Border>
         
-    </Grid>
+            <Border CornerRadius="10" BorderThickness="5" Opacity="0.95">
+                <Border.BorderBrush>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#462ad8" Offset="0"/>
+                        <GradientStop Color="#da34ae" Offset="0.75"/>
+                        <GradientStop Color="#8a16c1" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.BorderBrush>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,2" EndPoint="1,0">
+                        <GradientStop Color="#060531" Offset="0"/>
+                        <GradientStop Color="#1b1448" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            <Grid HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="30"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="MENÚ PRINCIPAL" 
+                       Foreground="White" 
+                       FontSize="40"
+                       FontWeight="Medium"
+                       FontFamily="Montserrat"
+                       Grid.Row="0"
+                       Grid.Column="2"
+                       Margin="0,100,0,0"
+                 />
+
+                <Button Name="Boton1_MainWindow"
+                        Content="Ir a ventana 1"
+                        Height="150"
+                        Width="200"
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Background="Blue"
+                        Foreground="White"
+                        FontSize="20"
+                        FontFamily="Monserrat"
+                        Cursor="Hand"
+                        Click="Boton_Window1"
+                />
+
+                <Button Name="Boton2_MainWindow"
+                        Content="Ir a ventana2"
+                        Height="150"
+                        Width="200"
+                        Grid.Row="1"
+                        Grid.Column="2"
+                        Background="Blue"
+                        Foreground="White"
+                        FontSize="20"
+                        FontFamily="Monserrat"
+                        Cursor="Hand"
+                        Click="Boton_Window2"
+                 />
+
+                <Button Name="Boton3_MainWindow"
+                        Content="Salir"
+                        Height="150"
+                        Width="200"
+                        Grid.Row="1"
+                        Grid.Column="3"
+                        Background="DeepSkyBlue"
+                        Foreground="White"
+                        FontSize="20"
+                        FontFamily="Monserrat"
+                        Cursor="Hand"
+                        Click="Boton_Salir"
+                />
+
+
+            </Grid>
+            </Border>
+        </Border>
+    
 </Window>
