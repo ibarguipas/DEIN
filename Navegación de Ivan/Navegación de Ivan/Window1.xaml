@@ -10,9 +10,33 @@
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
         Background="Transparent"
-        AllowsTransparency="True"
-        >
-    <Grid>
+        AllowsTransparency="True">
+    
+    <Border CornerRadius="12">
+        <Border.Background>
+            <ImageBrush ImageSource="/images/back-image.jpg" Stretch="None"/>
+        </Border.Background>
         
-    </Grid>
+        <Border CornerRadius="10" BorderThickness="5" Opacity="0.95">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#462ad8" Offset="0"/>
+                    <GradientStop Color="#da34ae" Offset="0.75"/>
+                    <GradientStop Color="#8a16c1" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,2" EndPoint="1,0">
+                    <GradientStop Color="#060531" Offset="0"/>
+                    <GradientStop Color="#1b1448" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            
+            <Grid>
+
+            </Grid>
+        </Border>
+    </Border>
+    
 </Window>
