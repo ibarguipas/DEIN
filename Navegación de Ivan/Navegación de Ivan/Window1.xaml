@@ -11,17 +11,17 @@
         WindowStartupLocation="CenterScreen"
         Background="Transparent"
         AllowsTransparency="True">
-    
+
     <Border CornerRadius="12">
         <Border.Background>
-            <ImageBrush ImageSource="/images/back-image.jpg" Stretch="None"/>
+            <ImageBrush ImageSource="images/back-image.jpg" Stretch="None"></ImageBrush>
         </Border.Background>
-        
+
         <Border CornerRadius="10" BorderThickness="5" Opacity="0.95">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#462ad8" Offset="0"/>
-                    <GradientStop Color="#da34ae" Offset="0.75"/>
+                    <GradientStop Color="#462AD8" Offset="0"/>
+                    <GradientStop Color="#DA34AE" Offset="0.75"/>
                     <GradientStop Color="#8a16c1" Offset="1"/>
                 </LinearGradientBrush>
             </Border.BorderBrush>
@@ -29,33 +29,15 @@
             <Border.Background>
                 <LinearGradientBrush StartPoint="0,2" EndPoint="1,0">
                     <GradientStop Color="#060531" Offset="0"/>
-                    <GradientStop Color="#1b1448" Offset="1"/>
+                    <GradientStop Color="#1B1448" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
-            
             <Grid>
-                <TextBlock Text="VENTANA 1"
-                           Foreground="White"
-                           FontSize="40"
-                           FontWeight="Medium"
-                           FontFamily="MontSerrat"
-                           HorizontalAlignment="Center"
-                           Margin="0,70,0,0"
-                    />
-                <Button Name="Menu_principal"
-                        Content="Ir a Menú Principal"
-                        Width="200"
-                        Height="150"
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Background="Violet"
-                        Foreground="DarkViolet"
-                        FontSize="20"
-                        FontFamily="Montserrat"
-                        Cursor="Hand"
-                        Click="Mainwindow"/>
+                <TextBlock Text="Ventana 1" Foreground="White" FontSize="40" FontWeight="Medium" FontFamily="Montserrat" HorizontalAlignment="Center" Margin="0,70,0,0"/>
+                <Button Name="Menu_principal" Content="Ir a Menu Principal" Height="150" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Violet" Foreground="DarkViolet" FontSize="20" FontFamily="Monstserrat" Cursor="Hand" Click="Mainwindow"/>
             </Grid>
+
         </Border>
     </Border>
-    
+
 </Window>

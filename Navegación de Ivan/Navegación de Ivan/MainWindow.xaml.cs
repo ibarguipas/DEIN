@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace Navegación_de_Ivan
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
@@ -24,23 +24,22 @@ namespace Navegación_de_Ivan
         {
             InitializeComponent();
         }
-
         private void Boton_Window1(object sender, RoutedEventArgs e)
         {
-            Window1 Abrirventana1 = new Window1();
+            Window AbrirVentana1 = new Window1();
             this.Close();
-            Abrirventana1.Show();
+            AbrirVentana1.Show();
         }
         private void Boton_Window2(object sender, RoutedEventArgs e)
         {
-            Window2 Abrirventana1 = new Window2();
+            Window AbrirVentana2 = new Window2();
             this.Close();
-            Abrirventana1.Show();
+            AbrirVentana2.Show();
         }
-
         private void Boton_Salir(object sender, RoutedEventArgs e)
         {
             System.Windows.Application.Current.Shutdown();
         }
+
     }
 }

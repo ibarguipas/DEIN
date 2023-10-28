@@ -6,6 +6,7 @@
     <RootNamespace>Navegación_de_Ivan</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <Configurations>Debug;Release;Release2</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

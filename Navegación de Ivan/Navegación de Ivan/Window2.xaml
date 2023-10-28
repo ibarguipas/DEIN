@@ -14,68 +14,33 @@
 
     <Border CornerRadius="12">
         <Border.Background>
-            <ImageBrush ImageSource="/images/back-image.jpg" Stretch="None"/>
+            <ImageBrush ImageSource="images/back-image.jpg" Stretch="None"></ImageBrush>
         </Border.Background>
 
         <Border CornerRadius="10" BorderThickness="5" Opacity="0.95">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#462ad8" Offset="0"/>
-                    <GradientStop Color="#da34ae" Offset="0.75"/>
+                    <GradientStop Color="#462AD8" Offset="0"/>
+                    <GradientStop Color="#DA34AE" Offset="0.75"/>
                     <GradientStop Color="#8a16c1" Offset="1"/>
                 </LinearGradientBrush>
             </Border.BorderBrush>
+
             <Border.Background>
                 <LinearGradientBrush StartPoint="0,2" EndPoint="1,0">
                     <GradientStop Color="#060531" Offset="0"/>
-                    <GradientStop Color="#1b1448" Offset="1"/>
+                    <GradientStop Color="#1B1448" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
             <Grid>
-                <TextBlock Text="VENTANA 2"
-                           Foreground="White"
-                           FontSize="40"
-                           FontWeight="Medium"
-                           FontFamily="Montserrat"
-                           HorizontalAlignment="Center"
-                           Margin="0,70,0,0"/>
-
-                <Button Name="Menu_principal"
-                        Content="Ir a Menú Principal"
-                        Width="200"
-                        Height="150"
-                        HorizontalAlignment="Left"
-                        Margin="50"
-                        VerticalAlignment="Center"
-                        Background="Green"
-                        Foreground="LightGreen"
-                        FontSize="20"
-                        FontFamily="Montserrat"
-                        Cursor="Hand"
-                        Click="Mainwindow"/>
-
-                <Frame Name="MyFrame"
-                       Content="Frame"
-                       HorizontalAlignment="Left"
-                       Height="286"
-                       Margin="288,172,0,0"
-                       VerticalAlignment="Top"
-                       Width="472"/>
-
-                <Button Content="Abrir Página 1"
-                        HorizontalAlignment="Left"
-                        Height="55" Margin="50,400,0,0"
-                        VerticalAlignment="Top"
-                        Width="200"
-                        FontSize="20"
-                        FontFamily="Montserrat"
-                        Background="DarkBlue"
-                        Foreground="Cyan"
-                        Click="Boton2_AbrirPagina"
-                    />
-
+                <TextBlock Text="Ventana 2" Foreground="White" FontSize="40" FontWeight="Medium" FontFamily="Montserrat" HorizontalAlignment="Center" Margin="0,70,0,0"/>
+                <Button Name="Menu_principal" Content="Ir a Menu Principal" Height="150" Width="200" HorizontalAlignment="Left" VerticalAlignment="Center" Background="Green" Foreground="LightGreen" FontSize="20" FontFamily="Monstserrat" Cursor="Hand" Click="Mainwindow" Margin="50"/>
+                <Frame Name="MyFrame" Content="Frame" HorizontalAlignment="Left" Height="286" Margin="288,172,0,0" VerticalAlignment="Top" Width="472"/>
+                <Button  Content="Abrir Página 1" Height="55" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top" Background="DarkBlue" Foreground="Cyan" FontSize="20" FontFamily="Monstserrat" Click="Boton2_AbrirPagina" Margin="50,400,0,0"/>
             </Grid>
+
         </Border>
     </Border>
+
 
 </Window>
