@@ -23,5 +23,14 @@ namespace Navegación_de_Ivan
         {
             InitializeComponent();
         }
+
+        private void Mainwindow(object sender, RoutedEventArgs e)
+        {
+            MainWindow AbrirMainWindow = new MainWindow();
+            this.Close();
+            AbrirMainWindow.Show();
+        }
     }
+    
+        
 }
