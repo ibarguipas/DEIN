@@ -34,7 +34,26 @@
             </Border.Background>
             
             <Grid>
-
+                <TextBlock Text="VENTANA 1"
+                           Foreground="White"
+                           FontSize="40"
+                           FontWeight="Medium"
+                           FontFamily="MontSerrat"
+                           HorizontalAlignment="Center"
+                           Margin="0,70,0,0"
+                    />
+                <Button Name="Menu_principal"
+                        Content="Ir a Menú Principal"
+                        Width="200"
+                        Height="150"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Background="Violet"
+                        Foreground="DarkViolet"
+                        FontSize="20"
+                        FontFamily="Montserrat"
+                        Cursor="Hand"
+                        Click="Mainwindow"/>
             </Grid>
         </Border>
     </Border>
