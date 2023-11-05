@@ -12,7 +12,7 @@
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_Fichero">
                 <MenuItem Header="_Nuevo" Click="M_Nuevo_Click"/>
-                <MenuItem Header="_Abrir" Click="M_Abrir_Click"/>
+                <MenuItem Header="_Abrir" Click="M_Abrir_CLick"/>
                 <MenuItem Header="_Guardar" Click="M_Guardar_Click"/>
                 <MenuItem Header="_Guardar como" Click="M_Guardar_como_Click"/>
                 <MenuItem Header="_Imprimir" Click="M_Imprimir_Click"/>

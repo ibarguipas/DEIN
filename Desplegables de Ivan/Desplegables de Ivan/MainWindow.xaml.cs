@@ -25,7 +25,7 @@ namespace Desplegables_de_Ivan
             InitializeComponent();
         }
 
-        private void M_Nuevo_CLick(object sender, RoutedEventArgs e)
+        private void M_Nuevo_Click(object sender, RoutedEventArgs e)
         {
             MainWindow NuevaVEntana = new MainWindow();
             NuevaVEntana.Show();
