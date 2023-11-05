@@ -5,8 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Desplegables_de_Ivan"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Actividad - Menu desplegable" Height="600" Width="800"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResizeWithGrip">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Fichero">
+                <MenuItem Header="_Nuevo" Click="M_Nuevo_Click"/>
+                <MenuItem Header="_Abrir" Click="M_Abrir_Click"/>
+                <MenuItem Header="_Guardar" Click="M_Guardar_Click"/>
+                <MenuItem Header="_Guardar como" Click="M_Guardar_como_Click"/>
+                <MenuItem Header="_Imprimir" Click="M_Imprimir_Click"/>
+                <Separator/>
+                <MenuItem Header="_Salir" Click="M_Salir_Click"/>
+            </MenuItem>
+            
+            <MenuItem Header="_Herramientas">
+                <MenuItem Header="_Gestion De Usuarios" Click="M_Usuarios_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/images/Usuario.png" Stretch="Fill"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="_Mostrar Grupos" IsCheckable="True" IsChecked="True"/>
+            </MenuItem>
+
+            <MenuItem Header="_Editar">
+                <MenuItem Header="Cortar" Click="M_Cortar_Click"/>
+                <MenuItem Header="Copiar" Click="M_Copiar_Click"/>
+                <MenuItem Header="Pegar" Click="M_Pegar_Click"/>
+                <MenuItem Header="Eliminar" Click="M_Eliminar_Click"/>
+            </MenuItem>
+        </Menu>
+
+        <TextBox AcceptsReturn="True" SpellCheck.IsEnabled="True" x:Name="txtEditor"/>
+
+    </DockPanel>
 </Window>
