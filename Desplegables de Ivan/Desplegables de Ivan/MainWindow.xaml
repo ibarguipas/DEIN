@@ -11,13 +11,37 @@
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_Fichero">
-                <MenuItem Header="_Nuevo" Click="M_Nuevo_Click"/>
-                <MenuItem Header="_Abrir" Click="M_Abrir_CLick"/>
-                <MenuItem Header="_Guardar" Click="M_Guardar_Click"/>
-                <MenuItem Header="_Guardar como" Click="M_Guardar_como_Click"/>
-                <MenuItem Header="_Imprimir" Click="M_Imprimir_Click"/>
+                <MenuItem Header="_Nuevo" Click="M_Nuevo_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/images/icons8-new-file-32.png"   Stretch="Fill"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="_Abrir" Click="M_Abrir_CLick">
+                    <MenuItem.Icon>
+                        <Image Source="/images/icons8-open-file-32.png"   Stretch="Fill"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="_Guardar" Click="M_Guardar_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/images/icons8-save-32.png"   Stretch="Fill"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="_Guardar como" Click="M_Guardar_como_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/images/icons8-save-as-32.png"   Stretch="Fill"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="_Imprimir" Click="M_Imprimir_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/images/icons8-print-32.png"   Stretch="Fill"/>
+                    </MenuItem.Icon>
+                </MenuItem>
                 <Separator/>
-                <MenuItem Header="_Salir" Click="M_Salir_Click"/>
+                <MenuItem Header="_Salir" Click="M_Salir_Click">
+                    <MenuItem.Icon>
+                        <Image Source="/images/icons8-close-32.png"   Stretch="Fill"/>
+                    </MenuItem.Icon>
+                </MenuItem>
             </MenuItem>
             
             <MenuItem Header="_Herramientas">
@@ -30,10 +54,26 @@
             </MenuItem>
 
             <MenuItem Header="_Editar">
-                <MenuItem Header="Cortar" Click="M_Cortar_Click"/>
-                <MenuItem Header="Copiar" Click="M_Copiar_Click"/>
-                <MenuItem Header="Pegar" Click="M_Pegar_Click"/>
-                <MenuItem Header="Eliminar" Click="M_Eliminar_Click"/>
+                <MenuItem Header="Cortar" Click="M_Cortar_Click" Command="Cut">
+                    <MenuItem.Icon>
+                        <Image Source="/images/icons8-cut-32.png"   Stretch="Fill"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Copiar" Click="M_Copiar_Click" Command="Copy">
+                    <MenuItem.Icon>
+                        <Image Source="/images/icons8-copy-32.png"   Stretch="Fill"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Pegar" Click="M_Pegar_Click" Command="Paste">
+                    <MenuItem.Icon>
+                        <Image Source="/images/icons8-paste-32.png"   Stretch="Fill"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="Eliminar" Click="M_Eliminar_Click" Command="Delete">
+                    <MenuItem.Icon>
+                        <Image Source="/images/icons8-delete-32.png"   Stretch="Fill"/>
+                    </MenuItem.Icon>
+                </MenuItem>
             </MenuItem>
         </Menu>
 

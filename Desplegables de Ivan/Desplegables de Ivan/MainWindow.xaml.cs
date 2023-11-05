@@ -67,21 +67,26 @@ namespace Desplegables_de_Ivan
         private void M_Copiar_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show(" Copiado ");
+            txtEditor.Copy();
         }
 
         private void M_Cortar_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show(" Cortado ");
+            txtEditor.Copy();
+            txtEditor.SelectedText = "";
         }
 
         private void M_Pegar_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show(" Pegado ");
+            txtEditor.Paste();
         }
 
         private void M_Eliminar_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show(" Eliminado ");
+            txtEditor.SelectedText = "";
         }
 
     }
