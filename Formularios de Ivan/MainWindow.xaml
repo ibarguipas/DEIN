@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Formularios_de_Ivan"
         mc:Ignorable="d"
-        Title="Intoduccion Datos Empleados" Height="800" Width="800">
+        Title="Intoduccion Datos Empleados" Height="900
+        " Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -51,7 +52,7 @@
         </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="6">
             <Label>DNI</Label>
-            <TextBox Name="dni" Width="325" Margin="5,5,5,5"></TextBox>
+            <TextBox Name="dni" Width="270" Margin="5,5,5,5"></TextBox>
         </StackPanel>
 
         <StackPanel Orientation="Horizontal" Grid.Row="7" Margin="0,30,0,30">
@@ -61,7 +62,6 @@
         <StackPanel Orientation="Horizontal" Grid.Row="8">
             <Label>Domicilio</Label>
             <StackPanel >
-
                 <TextBox Name="direccion" Width="325" Margin="5,5,5,5" Text="Dirección" GotFocus="Txt_GotFocus" LostFocus="Txt_LostFocus"></TextBox>
                 <TextBox Name="ciudad" Width="325" Margin="5,5,5,5"  Text="Ciudad" GotFocus="Txt_GotFocus" LostFocus="Txt_LostFocus"></TextBox>
                 <TextBox Name="provincia" Width="325" Margin="5,5,5,5"  Text="Provincia" GotFocus="Txt_GotFocus" LostFocus="Txt_LostFocus"></TextBox>
@@ -70,9 +70,29 @@
             </StackPanel>
             
         </StackPanel>
-        <StackPanel Orientation="Horizontal" Grid.Row="9" Grid.ColumnSpan="2">
+        <StackPanel Orientation="Horizontal" Grid.Row="8" Grid.Column="1">
+            <Image Source="/images/logo.png" Width="146" Margin="130,0,0,0"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="9" Grid.ColumnSpan="2" Margin="0,5,0,0">
             <Label>Enlace a red social</Label>
-            <TextBox  Width="325" Margin="5,5,5,5"></TextBox>
+            <TextBox  Width="665" Margin="5,5,5,5"></TextBox>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="10">
+            <Label>Rol actual</Label>
+            <ComboBox Width="279"  Margin="50,5,5,5">
+                <ComboBoxItem>Desarollador</ComboBoxItem>
+                <ComboBoxItem>Analista</ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Grid.Row="11" Grid.ColumnSpan="2" Margin="0,5,0,0">
+            <Label>Descripcion del puesto de trabajo actual:</Label>
+            <TextBox  Width="750" Height="100" Margin="5,5,5,5"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="12" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+            <Button Margin="5" Width="90" Height="40">Guardar</Button>
+            <Button Margin="5" Width="90" Height="40">Cancelar</Button>
         </StackPanel>
     </Grid>
 </Window>
