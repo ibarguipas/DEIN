@@ -70,5 +70,9 @@
             </StackPanel>
             
         </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="9" Grid.ColumnSpan="2">
+            <Label>Enlace a red social</Label>
+            <TextBox  Width="325" Margin="5,5,5,5"></TextBox>
+        </StackPanel>
     </Grid>
 </Window>
