@@ -48,7 +48,7 @@
         </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="5">
             <Label >Fecha de nacimiento</Label>
-            <DatePicker Width="267" Margin="5,5,5,5"></DatePicker>
+            <DatePicker Name="fecha" Width="267" Margin="5,5,5,5"></DatePicker>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="6">
             <Label>DNI</Label>
@@ -59,13 +59,16 @@
             <Label VerticalAlignment="Center">Adjuntar fotografia</Label>
             <Button VerticalAlignment="Center"  Margin="5,5,5,5" Width="100" Height="50">Cargar Foto</Button>
         </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.Column="1">
+            <Image Grid.Column="2" Name="imagenPrevia" Width="100" Height="100" HorizontalAlignment="Center" />
+        </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="8">
             <Label>Domicilio</Label>
             <StackPanel >
                 <TextBox Name="direccion" Width="325" Margin="5,5,5,5" Text="Dirección" GotFocus="Txt_GotFocus" LostFocus="Txt_LostFocus"></TextBox>
                 <TextBox Name="ciudad" Width="325" Margin="5,5,5,5"  Text="Ciudad" GotFocus="Txt_GotFocus" LostFocus="Txt_LostFocus"></TextBox>
                 <TextBox Name="provincia" Width="325" Margin="5,5,5,5"  Text="Provincia" GotFocus="Txt_GotFocus" LostFocus="Txt_LostFocus"></TextBox>
-                <TextBox Name="CP" Width="325" Margin="5,5,5,5"  Text="Código" GotFocus="Txt_GotFocus" LostFocus="Txt_LostFocus"></TextBox>
+                <TextBox Name="CP" Width="325" Margin="5,5,5,5"  Text="Código Postal" GotFocus="Txt_GotFocus" LostFocus="Txt_LostFocus"></TextBox>
                 <TextBox Name="pais" Width="325" Margin="5,5,5,5"  Text="País" GotFocus="Txt_GotFocus" LostFocus="Txt_LostFocus"></TextBox>
             </StackPanel>
             
@@ -91,8 +94,19 @@
             <TextBox  Width="750" Height="100" Margin="5,5,5,5"></TextBox>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="12" Grid.ColumnSpan="2" HorizontalAlignment="Center">
-            <Button Margin="5" Width="90" Height="40">Guardar</Button>
-            <Button Margin="5" Width="90" Height="40">Cancelar</Button>
+            <Button Margin="5" Width="90" Height="40" Click="boton_guardar_Click">Guardar</Button>
+            <Button Margin="5" Width="90" Height="40" Click="boton_cancelar_Click">Cancelar</Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="13" Grid.ColumnSpan="2">
+            <DataGrid x:Name="datagrid" Grid.Row="14" Grid.ColumnSpan="2" ItemsSource="{Binding}"  AutoGenerateColumns="False" Margin="20,0">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Nombre" Width="100" Binding="{Binding nombre}"/>
+                    <DataGridTextColumn Header="Apellidos" Width="225" Binding="{Binding apellidos}"/>
+                    <DataGridTextColumn Header="Email" Width="225" Binding="{Binding email}"/>
+                    <DataGridTextColumn Header="Teléfono" Width="200" Binding="{Binding telefono}"/>
+                </DataGrid.Columns>
+
+            </DataGrid>
         </StackPanel>
     </Grid>
 </Window>

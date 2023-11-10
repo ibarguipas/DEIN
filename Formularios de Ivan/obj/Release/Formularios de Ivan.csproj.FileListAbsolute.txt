@@ -1,0 +1,15 @@
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\obj\Release\Formularios de Ivan.csproj.AssemblyReference.cache
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\obj\Release\MainWindow.g.cs
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\obj\Release\App.g.cs
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\obj\Release\Formularios de Ivan_MarkupCompile.cache
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\obj\Release\Formularios de Ivan_MarkupCompile.lref
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\bin\Release\Formularios de Ivan.exe.config
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\bin\Release\Formularios de Ivan.exe
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\bin\Release\Formularios de Ivan.pdb
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\obj\Release\MainWindow.baml
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\obj\Release\Formularios de Ivan.g.resources
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\obj\Release\Formularios_de_Ivan.Properties.Resources.resources
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\obj\Release\Formularios de Ivan.csproj.GenerateResource.cache
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\obj\Release\Formularios de Ivan.csproj.CoreCompileInputs.cache
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\obj\Release\Formularios de Ivan.exe
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\Formularios de Ivan\obj\Release\Formularios de Ivan.pdb
