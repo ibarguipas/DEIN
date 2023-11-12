@@ -30,3 +30,6 @@ C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de I
 C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Debug\Orla de Ivan.pdb
 C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Debug\Window1.g.cs
 C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Debug\Window1.baml
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Debug\UserControl1.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Debug\UserControl1.baml

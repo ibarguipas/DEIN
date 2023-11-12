@@ -5,8 +5,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Orla_de_Ivan"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="400
-             ">
+             x:Name="root"
+             d:DesignHeight="450" d:DesignWidth="400">
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="10*"/>
@@ -25,13 +26,13 @@
             BorderThickness="0" Click="Persona_Click" MouseDoubleClick="Persona_MouseDoubleClick" 
                 MouseEnter="Persona_MouseEnter" MouseLeave="Persona_MouseLeave" >
             <Button.OpacityMask>
-                <ImageBrush ImageSource="Imagenes/usuario.png" Stretch="Uniform"/>
+                <ImageBrush ImageSource="/Imagenes/usuario.png" Stretch="Uniform"/>
             </Button.OpacityMask>
             <Button.Background>
                 <ImageBrush ImageSource="{Binding Foto, ElementName=root}" Stretch="Uniform"/>
             </Button.Background >
         </Button>
-        <Image Grid.Row="2" Grid.Column="1" Source="/Imagenes/PC.png" Margin="15"/>
+        <Image Grid.Row="2" Grid.Column="1" Source="/Imagenes/pc.png" Margin="15"/>
 
     </Grid>
 </UserControl>

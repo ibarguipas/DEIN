@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Window1.xaml.cs">
       <DependentUpon>Window1.xaml</DependentUpon>
     </Compile>
@@ -70,6 +73,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UserControl1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Window1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -109,6 +116,27 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Imagenes\AritzA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\PC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Adrian.jpg" />
+    <Resource Include="Imagenes\AdrianV.jpg" />
+    <Resource Include="Imagenes\Aitor.jpg" />
+    <Resource Include="Imagenes\Alberto.jpg" />
+    <Resource Include="Imagenes\Antonio.jpg" />
+    <Resource Include="Imagenes\AritzB.jpg" />
+    <Resource Include="Imagenes\Hugo.jpg" />
+    <Resource Include="Imagenes\Imanol.jpg" />
+    <Resource Include="Imagenes\Ivan.jpg" />
+    <Resource Include="Imagenes\Kaiet.jpg" />
+    <Resource Include="Imagenes\Kris.jpg" />
+    <Resource Include="Imagenes\Randy.jpg" />
+    <Resource Include="Imagenes\Victor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\Juan.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -25,8 +25,7 @@ namespace Orla_de_Ivan
             Profile_Nombre.Text = Nombre;
             Profile_Apellidos.Text = Apellidos;
             Profile_Email.Text = Email;
-            Profile_Image.Source = new BitmapImage(new
-            Uri(string.Format(@"..\..\{0}", Foto), UriKind.Relative));
+            Profile_Image.Source = new BitmapImage(new Uri(string.Format(@"..\..\{0}", Foto), UriKind.Relative));
         }
     }
 }

@@ -1,0 +1,20 @@
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\bin\Release\Orla de Ivan.exe.config
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\bin\Release\Orla de Ivan.exe
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\bin\Release\Orla de Ivan.pdb
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\Orla de Ivan.csproj.AssemblyReference.cache
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\MainWindow.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\UserControl1.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\Window1.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\App.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\Orla de Ivan_MarkupCompile.cache
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\Orla de Ivan_MarkupCompile.lref
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\MainWindow.baml
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\Window1.baml
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\UserControl1.baml
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\Orla de Ivan.g.resources
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\Orla_de_Ivan.Properties.Resources.resources
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\Orla de Ivan.csproj.GenerateResource.cache
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\Orla de Ivan.csproj.CoreCompileInputs.cache
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\Orla de Ivan.exe
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Orla de Ivan\obj\Release\Orla de Ivan.pdb
