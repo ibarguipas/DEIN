@@ -1,0 +1,26 @@
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\bin\Release\net6.0-windows\Navegacion de ivan.exe
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\bin\Release\net6.0-windows\Navegacion de ivan.deps.json
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\bin\Release\net6.0-windows\Navegacion de ivan.runtimeconfig.json
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\bin\Release\net6.0-windows\Navegacion de ivan.dll
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\bin\Release\net6.0-windows\Navegacion de ivan.pdb
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\MainWindow.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Page1.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Window1.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Window2.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\App.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Navegacion de ivan_MarkupCompile.cache
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Navegacion de ivan_MarkupCompile.lref
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\MainWindow.baml
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Page1.baml
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Window1.baml
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Window2.baml
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Navegacion de ivan.g.resources
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Navegacion de ivan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Navegacion de ivan.AssemblyInfoInputs.cache
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Navegacion de ivan.AssemblyInfo.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Navegacion de ivan.csproj.CoreCompileInputs.cache
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Navegacion de ivan.dll
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\refint\Navegacion de ivan.dll
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Navegacion de ivan.pdb
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\Navegacion de ivan.genruntimeconfig.cache
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Navegacion de ivan\obj\Release\net6.0-windows\ref\Navegacion de ivan.dll

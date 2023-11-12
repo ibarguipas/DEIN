@@ -1,0 +1,17 @@
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\bin\Release\Desplegables de Ivan.exe.config
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\bin\Release\Desplegables de Ivan.exe
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\bin\Release\Desplegables de Ivan.pdb
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\obj\Release\MainWindow.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\obj\Release\Usuarios.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\obj\Release\App.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\obj\Release\Desplegables de Ivan_MarkupCompile.cache
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\obj\Release\Desplegables de Ivan_MarkupCompile.lref
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\obj\Release\MainWindow.baml
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\obj\Release\Usuarios.baml
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\obj\Release\Desplegables de Ivan.g.resources
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\obj\Release\Desplegables_de_Ivan.Properties.Resources.resources
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\obj\Release\Desplegables de Ivan.csproj.GenerateResource.cache
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\obj\Release\Desplegables de Ivan.csproj.CoreCompileInputs.cache
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\obj\Release\Desplegables de Ivan.exe
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\obj\Release\Desplegables de Ivan.pdb
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\Desplegables de Ivan\Desplegables de Ivan\obj\Release\Desplegables de Ivan.csproj.AssemblyReference.cache

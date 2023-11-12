@@ -24,5 +24,20 @@ namespace Orla_de_Ivan
         {
             InitializeComponent();
         }
+
+        private void MouseEnter41(object sender, MouseEventArgs e)
+        {
+            LabelPuesto41.Text = "Nombre del alumno en el puesto 41";
+            }
+        private void MouseLeave41(object sender,
+        MouseEventArgs e)
+        {
+            LabelPuesto41.Text = "";
+        }
+
+        private void MouseClick41(object sender, RoutedEventArgs e)
+        {
+            LabelPuesto41.Text = "email_alumno@educacion.navarra.es";
+        }
     }
 }
