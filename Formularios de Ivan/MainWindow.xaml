@@ -57,7 +57,7 @@
 
         <StackPanel Orientation="Horizontal" Grid.Row="7" Margin="0,30,0,30">
             <Label VerticalAlignment="Center">Adjuntar fotografia</Label>
-            <Button VerticalAlignment="Center"  Margin="5,5,5,5" Width="100" Height="50">Cargar Foto</Button>
+            <Button VerticalAlignment="Center"  Margin="5,5,5,5" Width="100" Height="50" Click="SeleccionarImagen_Click">Cargar Foto</Button>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="7" Grid.Column="1">
             <Image Grid.Column="2" Name="imagenPrevia" Width="100" Height="100" HorizontalAlignment="Center" />
