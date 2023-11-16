@@ -1,0 +1,15 @@
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\bin\Release\BBDD de ivan.exe.config
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\bin\Release\BBDD de ivan.exe
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\bin\Release\BBDD de ivan.pdb
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\obj\Release\BBDD de ivan.csproj.AssemblyReference.cache
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\obj\Release\MainWindow.g.cs
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\obj\Release\App.g.cs
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\obj\Release\BBDD de ivan_MarkupCompile.cache
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\obj\Release\BBDD de ivan_MarkupCompile.lref
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\obj\Release\MainWindow.baml
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\obj\Release\BBDD de ivan.g.resources
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\obj\Release\BBDD_de_ivan.Properties.Resources.resources
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\obj\Release\BBDD de ivan.csproj.GenerateResource.cache
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\obj\Release\BBDD de ivan.csproj.CoreCompileInputs.cache
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\obj\Release\BBDD de ivan.exe
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\BBDD de ivan\obj\Release\BBDD de ivan.pdb
