@@ -13,3 +13,4 @@ C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\DEIN\proyectoIvan\
 C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\DEIN\proyectoIvan\obj\Debug\proyectoIvan.csproj.CoreCompileInputs.cache
 C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\DEIN\proyectoIvan\obj\Debug\proyectoIvan.exe
 C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\DEIN\proyectoIvan\obj\Debug\proyectoIvan.pdb
+C:\Users\alumTA\Documents\DEIN - Desarollo de interfaces\DEIN\DEIN\proyectoIvan\obj\Debug\App.baml
