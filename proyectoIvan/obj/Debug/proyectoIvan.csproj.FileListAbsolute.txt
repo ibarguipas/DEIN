@@ -30,3 +30,11 @@ C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\proyectoI
 C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\proyectoIvan\obj\Debug\proyectoIvan.csproj.CoreCompileInputs.cache
 C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\proyectoIvan\obj\Debug\proyectoIvan.exe
 C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\proyectoIvan\obj\Debug\proyectoIvan.pdb
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\proyectoIvan\obj\Debug\Window1.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\proyectoIvan\obj\Debug\Window1.baml
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\proyectoIvan\obj\Debug\Window2.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\proyectoIvan\obj\Debug\Window2.baml
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\proyectoIvan\obj\Debug\Window3.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\proyectoIvan\obj\Debug\Window3.baml
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\proyectoIvan\obj\Debug\Window4.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\proyectoIvan\obj\Debug\Window4.baml

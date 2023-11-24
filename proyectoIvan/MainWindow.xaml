@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:proyectoIvan"
         mc:Ignorable="d"
-        Title="MainWindow" MinHeight="690" MinWidth="910" Height="600" Width="910">
+        Title="TravelPet" Icon="/Images/logo.png" MinHeight="690" MinWidth="910" Height="600" Width="910">
     <Grid Background="#fefff9">
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
@@ -46,16 +46,21 @@
 
         <StackPanel Grid.ColumnSpan="18" Background="#2b2b2b" Height="50"></StackPanel>
 
-        <Button Style="{StaticResource menuSpecial}" Grid.Column="0"></Button>
+        <Button Style="{StaticResource menuSpecial}" Grid.Column="0">
+            <Image Source="/Images/logo.png" />
+
+        </Button>
         <Button Style="{StaticResource menuSelected}" Content="Home" Grid.Column="2" Grid.ColumnSpan="2"></Button>
-        <Button Style="{StaticResource menu}" Content="Mapa" Grid.Column="6" Grid.ColumnSpan="2"></Button>
-        <Button Style="{StaticResource menu}" Content="Calendario" Grid.Column="10" Grid.ColumnSpan="2"></Button>
-        <Button Style="{StaticResource menu}" Content="Historial" Grid.Column="14" Grid.ColumnSpan="2"></Button>
-        <Button Style="{StaticResource menuSpecial}" Grid.Column="18"></Button>
+        <Button Style="{StaticResource menu}" Content="Mapa" Grid.Column="6" Grid.ColumnSpan="2" Click="Button_Click_1"></Button>
+        <Button Style="{StaticResource menu}" Content="Calendario" Grid.Column="10" Grid.ColumnSpan="2" Click="Button_Click_3"></Button>
+        <Button Style="{StaticResource menu}" Content="Historial" Grid.Column="14" Grid.ColumnSpan="2" Click="Button_Click_4"></Button>
+        <Button Style="{StaticResource menuSpecial}" Grid.Column="18">
+            <Image Source="/Images/user.png" />
+        </Button>
 
         <StackPanel  Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="16" Grid.RowSpan="2"  Margin="25,0,25,0" Background="#d9d9d9"></StackPanel>
         <Button Style="{StaticResource selectorSelect}"  Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="8" Margin="25,0,0,0" Content="Busca tu viaje"></Button>
-        <Button Style="{StaticResource selectorDefault}" Grid.Column="9" Grid.Row="2" Background="#999999" Grid.ColumnSpan="8"  Margin="0,0,25,0" Content="Cerca de ti"></Button>
+        <Button Style="{StaticResource selectorDefault}" Grid.Column="9" Grid.Row="2" Grid.ColumnSpan="8"  Margin="0,0,25,0" Content="Cerca de ti" Click="Button_Click"></Button>
         <TextBox Grid.Column="2" Grid.Row="3" Background="White" Grid.ColumnSpan="3" Grid.RowSpan="2" Margin="25,32.4,5.4,36" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  GotFocus="Txt_GotFocus" LostFocus="Txt_LostFocus" Name="direccion" Text="¿A donde vas?"/>
         <ComboBox Grid.Column="6" Grid.Row="3" Background="#2b2b2b" Grid.ColumnSpan="3" Grid.RowSpan="2" Margin="5.2,32.4,25,36" HorizontalAlignment="Stretch" SelectedIndex="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="MainComboBox" SelectionChanged="ChildComboBox_SelectionChanged">
             <ComboBoxItem Content="Habitaciones" IsEnabled="False" Visibility="Collapsed"/>
@@ -104,14 +109,102 @@
 
         </StackPanel>
 
-        <Button Style="{StaticResource search}" Grid.Column="13" Grid.Row="3" Grid.ColumnSpan="3" Grid.RowSpan="2" Margin="5,32.4,25.2,36" Height="26" HorizontalAlignment="Stretch"  Content="Buscar"></Button>
+        <Button Style="{StaticResource search}" Grid.Column="13" Grid.Row="3" Grid.ColumnSpan="3" Grid.RowSpan="2" Margin="5,32.4,25.2,36" Height="26" HorizontalAlignment="Stretch"  Content="Buscar" Click="Button_Click_2"></Button>
 
-        <StackPanel Grid.Column="1" Grid.Row="6" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#f1f1f1" Margin="25"></StackPanel>
-        <StackPanel Grid.Column="7" Grid.Row="6" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#f1f1f1" Margin="25"></StackPanel>
-        <StackPanel Grid.Column="13" Grid.Row="6" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#f1f1f1" Margin="25"></StackPanel>
+        <Grid Grid.Column="1" Grid.Row="6" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#f1f1f1" Margin="25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="115*"></RowDefinition>
+                <RowDefinition Height="24*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image Grid.Row="0" Source="/Images/que-ver-en-espana-albarracin.jpg" Stretch="Fill" />
 
-        <StackPanel Grid.Column="1" Grid.Row="10" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#f1f1f1" Margin="25" ></StackPanel>
-        <StackPanel Grid.Column="7" Grid.Row="10" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#f1f1f1" Margin="25"></StackPanel>
-        <StackPanel Grid.Column="13" Grid.Row="10" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#f1f1f1" Margin="25"></StackPanel>
+            <StackPanel Grid.Row="1" Background="#2a9134" Orientation="Horizontal">
+                <Label Content="Albarracín" Width="128"></Label>
+                <Label Content="4.6" HorizontalAlignment="Right"></Label>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Column="7" Grid.Row="6" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#f1f1f1" Margin="25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="115*"></RowDefinition>
+                <RowDefinition Height="24*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image Grid.Row="0" Source="/Images/que-ver-en-espana-alquezar.jpg" Stretch="Fill" />
+
+            <StackPanel Grid.Row="1" Background="#2a9134" Orientation="Horizontal">
+                <Label Content="Alquézar " Width="128"></Label>
+                <Label Content="4.9" HorizontalAlignment="Right"></Label>
+            </StackPanel>
+        </Grid>
+        
+        <Grid Grid.Column="13" Grid.Row="6" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#f1f1f1" Margin="25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="115*"></RowDefinition>
+                <RowDefinition Height="24*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image Grid.Row="0" Source="/Images/que-ver-en-espana-avila.jpg" Stretch="Fill" />
+
+            <StackPanel Grid.Row="1" Background="#2a9134" Orientation="Horizontal">
+                <Label Content="Avila" Width="128"></Label>
+                <Label Content="4.1" HorizontalAlignment="Right"></Label>
+            </StackPanel>
+        </Grid>
+        
+        <Grid Grid.Column="1" Grid.Row="10" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#f1f1f1" Margin="25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="115*"></RowDefinition>
+                <RowDefinition Height="24*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image Grid.Row="0" Source="/Images/que-ver-en-espana-barcelona.jpg" Stretch="Fill" />
+
+            <StackPanel Grid.Row="1" Background="#2a9134" Orientation="Horizontal">
+                <Label Content="Barcelona" Width="128"></Label>
+                <Label Content="3.9" HorizontalAlignment="Right"></Label>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Column="7" Grid.Row="10" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#f1f1f1" Margin="25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="115*"></RowDefinition>
+                <RowDefinition Height="24*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image Grid.Row="0" Source="/Images/que-ver-en-espana-bardenas.jpg" Stretch="Fill" />
+
+            <StackPanel Grid.Row="1" Background="#2a9134" Orientation="Horizontal">
+                <Label Content="Bardenas Reales" Width="128"></Label>
+                <Label Content="5.0" HorizontalAlignment="Right"></Label>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Column="13" Grid.Row="10" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#f1f1f1" Margin="25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="115*"></RowDefinition>
+                <RowDefinition Height="24*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image Grid.Row="0" Source="/Images/que-ver-en-espana-concha.jpg" Stretch="Fill" />
+
+            <StackPanel Grid.Row="1" Background="#2a9134" Orientation="Horizontal">
+                <Label Content="Bahía de La Concha" Width="128"></Label>
+                <Label Content="4.4" HorizontalAlignment="Right"></Label>
+            </StackPanel>
+        </Grid>
+
+
     </Grid>
 </Window>

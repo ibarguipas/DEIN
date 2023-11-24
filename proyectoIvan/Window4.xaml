@@ -1,0 +1,198 @@
+﻿<Window x:Class="proyectoIvan.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:proyectoIvan"
+        mc:Ignorable="d"
+        Title="TravelPet" Icon="/Images/logo.png" MinHeight="690" MinWidth="910" Height="600" Width="910">
+    <Grid Background="#fefff9">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.ColumnSpan="18" Background="#2b2b2b" Height="50"></StackPanel>
+
+        <Button Style="{StaticResource menuSpecial}" Grid.Column="0">
+            <Image Source="/Images/logo.png" />
+
+        </Button>
+        <Button Style="{StaticResource menu}" Content="Home" Grid.Column="2" Grid.ColumnSpan="2" Click="Button_Click"></Button>
+        <Button Style="{StaticResource menu}" Content="Mapa" Grid.Column="6" Grid.ColumnSpan="2" Click="Button_Click_1"></Button>
+        <Button Style="{StaticResource menu}" Content="Calendario" Grid.Column="10" Grid.ColumnSpan="2" Click="Button_Click_2" ></Button>
+        <Button Style="{StaticResource menuSelected}" Content="Historial" Grid.Column="14" Grid.ColumnSpan="2"></Button>
+        <Button Style="{StaticResource menuSpecial}" Grid.Column="18">
+            <Image Source="/Images/user.png" />
+        </Button>
+
+        <StackPanel  Grid.Row="2" Grid.Column="3" Background="#2a9134" Grid.ColumnSpan="12" >
+            <Label Content="Revisita tus viajes" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" FontWeight="Bold"></Label>
+        </StackPanel>
+        <ListBox Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="12" Grid.RowSpan="10" Background="#cef0d1">
+                <ListBoxItem Margin="5" Background="#d9d9d9">
+                    <StackPanel Orientation="Horizontal">
+                    <Button Style="{StaticResource menuSpecial}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Images/archivo-real-general-navarra.jpg" Stretch="UniformToFill"/>
+                        </Button.Background >
+                       
+                    </Button>
+                        
+                        <Label Content="Visita al archivo real" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                        <Label Content="18/02/2022" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                     </StackPanel>
+                    
+                </ListBoxItem>
+            <ListBoxItem Margin="5" Background="#d9d9d9">
+                <StackPanel Orientation="Horizontal">
+                    <Button Style="{StaticResource menuSpecial}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Images/catedral-pamplona.jpg" Stretch="UniformToFill"/>
+                        </Button.Background >
+
+                    </Button>
+
+                    <Label Content="Visita a la catedral" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                    <Label Content="20/02/2022" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                </StackPanel>
+
+            </ListBoxItem>
+            <ListBoxItem Margin="5" Background="#d9d9d9">
+                <StackPanel Orientation="Horizontal">
+                    <Button Style="{StaticResource menuSpecial}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Images/fuente-que-ver-en-pamplona.jpg" Stretch="UniformToFill"/>
+                        </Button.Background >
+
+                    </Button>
+
+                    <Label Content="Paseo por el centro" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                    <Label Content="24/02/2022" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                </StackPanel>
+
+            </ListBoxItem>
+            <ListBoxItem Margin="5" Background="#d9d9d9">
+                <StackPanel Orientation="Horizontal">
+                    <Button Style="{StaticResource menuSpecial}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Images/muralla-pamplona.jpg" Stretch="UniformToFill"/>
+                        </Button.Background >
+
+                    </Button>
+
+                    <Label Content="Paseo por la muralla" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                    <Label Content="25/02/2022" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                </StackPanel>
+
+            </ListBoxItem>
+            <ListBoxItem Margin="5" Background="#d9d9d9">
+                <StackPanel Orientation="Horizontal">
+                    <Button Style="{StaticResource menuSpecial}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Images/que-ver-en-espana-alquezar.jpg" Stretch="UniformToFill"/>
+                        </Button.Background >
+
+                    </Button>
+
+                    <Label Content="Vacaciones en Alquezar" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                    <Label Content="03/07/2023" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                </StackPanel>
+
+            </ListBoxItem>
+            <ListBoxItem Margin="5" Background="#d9d9d9">
+                <StackPanel Orientation="Horizontal">
+                    <Button Style="{StaticResource menuSpecial}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Images/que-ver-en-espana-avila.jpg" Stretch="UniformToFill"/>
+                        </Button.Background >
+
+                    </Button>
+
+                    <Label Content="Vacaciones Avila" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                    <Label Content="18/08/2023" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                </StackPanel>
+
+            </ListBoxItem>
+
+            <ListBoxItem Margin="5" Background="#d9d9d9" >
+                <StackPanel Orientation="Horizontal">
+                    <Button Style="{StaticResource menuSpecial}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Images/que-ver-en-espana-avila.jpg" Stretch="UniformToFill"/>
+                        </Button.Background >
+
+                    </Button>
+
+                    <Label Content="Paseo centro Avila" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                    <Label Content="19/08/2023" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                </StackPanel>
+
+            </ListBoxItem>
+
+            <ListBoxItem Margin="5" Background="#d9d9d9" >
+                <StackPanel Orientation="Horizontal">
+                    <Button Style="{StaticResource menuSpecial}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Images/que-ver-en-espana-avila.jpg" Stretch="UniformToFill"/>
+                        </Button.Background >
+
+                    </Button>
+
+                    <Label Content="Comiendo en Avila" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                    <Label Content="20/08/2023" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                </StackPanel>
+
+            </ListBoxItem>
+
+            <ListBoxItem Margin="5" Background="#d9d9d9">
+                <StackPanel Orientation="Horizontal">
+                    <Button Style="{StaticResource menuSpecial}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Images/que-ver-en-espana-avila.jpg" Stretch="UniformToFill"/>
+                        </Button.Background >
+
+                    </Button>
+
+                    <Label Content="Museo de Avila" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                    <Label Content="21/08/2023" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                </StackPanel>
+
+            </ListBoxItem>
+        </ListBox>
+
+
+    </Grid>
+</Window>

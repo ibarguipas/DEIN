@@ -55,6 +55,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window2.xaml.cs">
+      <DependentUpon>Window2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window3.xaml.cs">
+      <DependentUpon>Window3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window4.xaml.cs">
+      <DependentUpon>Window4.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +79,22 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -95,7 +123,33 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
+    <Resource Include="Images\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\que-ver-en-espana-albarracin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\que-ver-en-espana-alquezar.jpg" />
+    <Resource Include="Images\que-ver-en-espana-avila.jpg" />
+    <Resource Include="Images\que-ver-en-espana-barcelona.jpg" />
+    <Resource Include="Images\que-ver-en-espana-bardenas.jpg" />
+    <Resource Include="Images\que-ver-en-espana-concha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\44386.png" />
+    <Resource Include="Images\archivo-real-general-navarra.jpg" />
+    <Resource Include="Images\catedral-pamplona.jpg" />
+    <Resource Include="Images\fuente-que-ver-en-pamplona.jpg" />
+    <Resource Include="Images\muralla-pamplona.jpg" />
+    <Resource Include="Images\paseo-redin-que-hacer-en-pamplona.jpg" />
+    <Resource Include="Images\plaza-castillo.jpg" />
+    <Resource Include="Images\Sin título.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\map.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
