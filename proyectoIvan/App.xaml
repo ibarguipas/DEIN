@@ -4,16 +4,86 @@
              xmlns:local="clr-namespace:proyectoIvan"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        
-        
+
+
+
+        <Style TargetType="Button" x:Key="selectorSelect">
+            <Setter Property="Background" Value="#2a9134"/>
+            <Setter Property="Foreground" Value="#2b2b2b"/>
+            <Setter Property= "Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="25,0,0,0" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+
+                        </Border>
+
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+
+        </Style>
+
+
+        <Style TargetType="Button" x:Key="selectorDefault">
+        <Setter Property="Background" Value="#999999"/>
+        <Setter Property="Foreground" Value="#2b2b2b"/>
+        <Setter Property= "Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border CornerRadius="0,25,0,0" Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+
+                    </Border>
+
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="FontSize" Value="16"></Setter>
+        <Setter Property="FontWeight" Value="Bold"></Setter>
+
+        </Style>
+
+
+
+  
+
+
+
+        <Style TargetType="Button" x:Key="menuSpecial">
+            <Setter Property="Background" Value="#2a9134"/>
+            <Setter Property="Foreground" Value="#2b2b2b"/>
+            <Setter Property="Width" Value="auto"/>
+            <Setter Property="Height" Value="auto"/>
+            <Setter Property="MaxWidth" Value="40"/>
+            <Setter Property="MaxHeight" Value="40"/>
+            <Setter Property="Margin" Value="5,5,5,5"/>
+            <Setter Property= "Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="50" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center"/>
+                        </Border>
+
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+        </Style>
+
         <Style TargetType="Button" x:Key="menuSelected">
             <Setter Property="Background" Value="#2a9134"/>
             <Setter Property="Foreground" Value="#2b2b2b"/>
+            <Setter Property="Height" Value="auto"/>
             <Setter Property="Width" Value="auto"/>
             <Setter Property="MinWidth" Value="80"/>
             <Setter Property="Margin" Value="5,5,5,5"/>
             <Setter Property="HorizontalAlignment" Value="Stretch"/>
-
+        
 
             <Setter Property= "Template">
                 <Setter.Value>
@@ -28,6 +98,8 @@
             <Setter Property="FontSize" Value="16"></Setter>
             <Setter Property="FontWeight" Value="Bold"></Setter>
             <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
 
         </Style>
 
@@ -38,6 +110,7 @@
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="BorderBrush" Value="#2a9134"/>
             <Setter Property="BorderThickness" Value="2"/>
+            
 
             <Setter Property= "Template">
                 <Setter.Value>
@@ -51,6 +124,43 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="BorderThickness" Value="5"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+
+        <Style TargetType="Button" x:Key="search" BasedOn="{StaticResource menu}">
+            <Setter Property="Background" Value="#2a9134"/>
+            <Setter Property="Foreground" Value="#2b2b2b"/>
+            <Setter Property="BorderBrush" Value="#2b2b2b"/>
+            <Setter Property="BorderThickness" Value="2"/>
+
+
+            <Setter Property= "Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="10" Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}">
+                            <ContentPresenter HorizontalAlignment="Center"/>
+                        </Border>
+
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#2b2b2b"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="BorderBrush" Value="#2a9134"/>
+                    <Setter Property="BorderThickness" Value="2"/>
+                </Trigger>
+            </Style.Triggers>
         </Style>
 
 

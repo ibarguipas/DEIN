@@ -46,23 +46,23 @@
 
         <StackPanel Grid.ColumnSpan="18" Background="#2b2b2b" Height="50"></StackPanel>
 
-        <Button Width="40" Height="40" Margin="5,5,5,5" Grid.Column="0"></Button>
+        <Button Style="{StaticResource menuSpecial}" Grid.Column="0"></Button>
         <Button Style="{StaticResource menuSelected}" Content="Home" Grid.Column="2" Grid.ColumnSpan="2"></Button>
         <Button Style="{StaticResource menu}" Content="Mapa" Grid.Column="6" Grid.ColumnSpan="2"></Button>
         <Button Style="{StaticResource menu}" Content="Calendario" Grid.Column="10" Grid.ColumnSpan="2"></Button>
         <Button Style="{StaticResource menu}" Content="Historial" Grid.Column="14" Grid.ColumnSpan="2"></Button>
-        <Button Width="40" Height="40" Margin="5,5,5,5" Grid.Column="18"></Button>
+        <Button Style="{StaticResource menuSpecial}" Grid.Column="18"></Button>
 
-        <StackPanel Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="16" Grid.RowSpan="3" Background="#d9d9d9" Margin="25,0,25,0"></StackPanel>
-        <Button Grid.Column="1" Grid.Row="2" Background="#2a9134" Grid.ColumnSpan="8" Margin="25,0,0,0" Content="Busca tu viaje"></Button>
-        <Button Grid.Column="9" Grid.Row="2" Background="#999999" Grid.ColumnSpan="8"  Margin="0,0,25,0" Content="Cerca de ti"></Button>
-        <TextBox Grid.Column="2" Grid.Row="3" Background="White" Grid.ColumnSpan="3" Grid.RowSpan="2" Margin="25,5,5,5" Height="50" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextChanged="TextBox_TextChanged" ></TextBox>
-        <ComboBox Grid.Column="6" Grid.Row="3" Background="#2b2b2b" Grid.ColumnSpan="3" Grid.RowSpan="2" Margin="5,5,25,5" Height="50" HorizontalAlignment="Stretch" SelectedIndex="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">
+        <StackPanel  Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="16" Grid.RowSpan="2"  Margin="25,0,25,0" Background="#d9d9d9"></StackPanel>
+        <Button Style="{StaticResource selectorSelect}"  Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="8" Margin="25,0,0,0" Content="Busca tu viaje"></Button>
+        <Button Style="{StaticResource selectorDefault}" Grid.Column="9" Grid.Row="2" Background="#999999" Grid.ColumnSpan="8"  Margin="0,0,25,0" Content="Cerca de ti"></Button>
+        <TextBox Grid.Column="2" Grid.Row="3" Background="White" Grid.ColumnSpan="3" Grid.RowSpan="2" Margin="25,32.4,5.4,36" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  GotFocus="Txt_GotFocus" LostFocus="Txt_LostFocus" Name="direccion" Text="¿A donde vas?"/>
+        <ComboBox Grid.Column="6" Grid.Row="3" Background="#2b2b2b" Grid.ColumnSpan="3" Grid.RowSpan="2" Margin="5.2,32.4,25,36" HorizontalAlignment="Stretch" SelectedIndex="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="MainComboBox" SelectionChanged="ChildComboBox_SelectionChanged">
             <ComboBoxItem Content="Habitaciones" IsEnabled="False" Visibility="Collapsed"/>
-            <ComboBoxItem>
-                <StackPanel Orientation="Horizontal">
+            <ComboBoxItem >
+                <StackPanel Orientation="Horizontal" >
                     <ComboBox SelectedIndex="0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="5">
-                        <ComboBoxItem Content="1 Adulto"/>
+                        <ComboBoxItem Content="1 Adulto "/>
                         <ComboBoxItem Content="2 Adultos"/>
                         <ComboBoxItem Content="3 Adultos"/>
                         <ComboBoxItem Content="4 Adultos"/>
@@ -88,6 +88,8 @@
                     </ComboBox>
                 </StackPanel>
             </ComboBoxItem>
+
+
         </ComboBox>
         <StackPanel Grid.Column="9" Grid.Row="3" Grid.ColumnSpan="4" Grid.RowSpan="2" Margin="25,22" Height="50" HorizontalAlignment="Stretch" >
             <StackPanel Orientation="Horizontal">
@@ -101,8 +103,8 @@
             </StackPanel>
 
         </StackPanel>
-        
-        <Button Grid.Column="13" Grid.Row="3" Background="#2a9134" Grid.ColumnSpan="3" Grid.RowSpan="2" Margin="5,5,25,5" Height="50" HorizontalAlignment="Stretch" Foreground="#2b2b2b" Content="Buscar"></Button>
+
+        <Button Style="{StaticResource search}" Grid.Column="13" Grid.Row="3" Grid.ColumnSpan="3" Grid.RowSpan="2" Margin="5,32.4,25.2,36" Height="26" HorizontalAlignment="Stretch"  Content="Buscar"></Button>
 
         <StackPanel Grid.Column="1" Grid.Row="6" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#f1f1f1" Margin="25"></StackPanel>
         <StackPanel Grid.Column="7" Grid.Row="6" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#f1f1f1" Margin="25"></StackPanel>

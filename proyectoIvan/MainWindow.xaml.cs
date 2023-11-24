@@ -25,14 +25,39 @@ namespace proyectoIvan
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+
+        private void Txt_GotFocus(object sender, RoutedEventArgs e)
         {
+            if (sender is TextBox textbox)
+            {
+                if (!String.IsNullOrWhiteSpace(textbox.Text))
+                {
+                    textbox.Text = "";
+                }
+
+            }
+        }
+
+
+        private void Txt_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (sender is TextBox textbox)
+            {
+                if (String.IsNullOrWhiteSpace(textbox.Text))
+                {
+                    if (textbox.Name == "direccion")
+                    {
+                        textbox.Text = "¿A donde vas?";
+                    }
+                    
+                }
+            }
 
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void ChildComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            MainComboBox.SelectedIndex = 0; 
         }
     }
 }
