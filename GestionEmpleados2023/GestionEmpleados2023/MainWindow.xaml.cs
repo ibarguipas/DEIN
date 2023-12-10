@@ -24,5 +24,19 @@ namespace GestionEmpleados2023
         {
             InitializeComponent();
         }
+
+        private void ListaEmpleadosClick(object sender, RoutedEventArgs e)
+        {
+            ListaEmpleados lista = new ListaEmpleados();
+            lista.Show();
+            this.Close(); // Close the current window if needed
+        }
+
+        private void AgregarEmpleadosClick(object sender, RoutedEventArgs e)
+        {
+            AgregarEmpleado agre = new AgregarEmpleado();
+            agre.Show();
+            this.Close(); // Close the current window if needed
+        }
     }
 }

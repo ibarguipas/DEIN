@@ -19,8 +19,8 @@
 
         <Label Grid.ColumnSpan="3" Content="Departamento RRHH" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40"></Label>
 
-        <Button Width="200" Height="75" Margin="10" Grid.Row="1" Grid.Column="0" Content="Lista de empleados"></Button>
-        <Button Width="200" Height="75" Margin="10" Grid.Row="1" Grid.Column="1" Content="Agregar empleados"></Button>
+        <Button Width="200" Height="75" Margin="10" Grid.Row="1" Grid.Column="0" Content="Lista de empleados"  Click="ListaEmpleadosClick" ></Button>
+        <Button Width="200" Height="75" Margin="10" Grid.Row="1" Grid.Column="1" Content="Agregar empleados" Click="AgregarEmpleadosClick"></Button>
         <Button Width="200" Height="75" Margin="10" Grid.Row="1" Grid.Column="2" Content="Buscar empleado"></Button>
     </Grid>
     

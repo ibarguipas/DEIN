@@ -13,3 +13,7 @@ C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\GestionEm
 C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\GestionEmpleados2023\GestionEmpleados2023\obj\Debug\GestionEmpleados2023.csproj.CoreCompileInputs.cache
 C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\GestionEmpleados2023\GestionEmpleados2023\obj\Debug\GestionEmpleados2023.exe
 C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\GestionEmpleados2023\GestionEmpleados2023\obj\Debug\GestionEmpleados2023.pdb
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\GestionEmpleados2023\GestionEmpleados2023\obj\Debug\ListaEmpleados.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\GestionEmpleados2023\GestionEmpleados2023\obj\Debug\ListaEmpleados.baml
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\GestionEmpleados2023\GestionEmpleados2023\obj\Debug\AgregarEmpleado.g.cs
+C:\Users\ivanb\Documents\Curso DAM\Desarollo de Interfaces - Dein\DEIN\GestionEmpleados2023\GestionEmpleados2023\obj\Debug\AgregarEmpleado.baml
